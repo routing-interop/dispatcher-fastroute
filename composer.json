@@ -1,0 +1,22 @@
+{
+    "name": "routing-interop/dispatcher-fastroute",
+    "description": "FastRoute bridge for routing-interop/dispatcher",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Keven Godet",
+            "email": "hello@keven.fr"
+        }
+    ],
+  "autoload": {
+    "psr-4": {
+      "Interop\\Routing\\FastRoute\\": "src"
+    }
+  },
+    "minimum-stability": "beta",
+    "require": {
+        "routing-interop/dispatcher": "^0.0.1",
+        "nikic/fast-route": "^1.3"
+    }
+}
