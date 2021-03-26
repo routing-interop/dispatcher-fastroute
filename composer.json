@@ -17,6 +17,7 @@
     "minimum-stability": "beta",
     "require": {
         "routing-interop/dispatcher": "^0.0.1",
-        "nikic/fast-route": "^1.3"
+        "nikic/fast-route": "^1.3",
+        "routing-interop/route": "^0.0.5"
     }
 }
